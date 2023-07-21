@@ -1,0 +1,1 @@
+C:\Users\thoma\Desktop\Advanced-mobile-development\MyFirstMAUIApp\MyFirstMAUIApp\MyFirstMAUIApp.csproj;x64
