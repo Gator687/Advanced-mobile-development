@@ -1,0 +1,1 @@
+D:\Advanced-mobile-development\Phoneword\Phoneword\Phoneword.csproj;x64
