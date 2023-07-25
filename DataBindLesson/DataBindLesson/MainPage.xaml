@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DataBindLesson.MainPage"
+             x:Name="WeightPage"
+             BindingContext="{x:Reference weightPage}">
+    <VerticalStackLayout
+        Spacing="25"
+        Padding="10"
+        VerticalOptions="Start">
+        <Label Text="Enter your weight in pounds"
+               FontSize="Medium"/>
+        <HorizontalStackLayout>
+            <Slider x:Name="weigthSlider"
+                    Minimum="0"
+                    Maximum="400"
+                    Value="150"
+                    WidthRequest="200"
+                    ValueChanged="OnSliderChange"/>
+            <Label x:Name="weightLabel"
+                   BindingContext="{x:Reference weigthSlider}"
+                   Text="{Binding Value, StringFormat='{0:F2} Lbs'}"
+                   FontSize="Medium"
+                   Padding="50,0,0,0"/>
+        </HorizontalStackLayout>
+        <Label Text="Kilograms" FontSize="Medium"/>
+        <Label Text="68.04" FontSize="Medium"
+               x:Name="kilogramLabel"
+               Padding="50,0,0,0"/>
+        <HorizontalStackLayout/>
+        <CollectionView 
+            x:Name="ConvCollection"
+            ItemsSource="{Binding DataList}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Label Text="{Binding Name}" 
+                   WidthRequest="200"
+                   FontSize="Medium"/>
+                
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        
+    </VerticalStackLayout>
+</ContentPage>
