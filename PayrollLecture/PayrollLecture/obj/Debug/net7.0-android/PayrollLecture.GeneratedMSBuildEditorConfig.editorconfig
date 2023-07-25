@@ -12,33 +12,33 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = PayrollLecture
-build_property.ProjectDir = C:\Users\thoma\Desktop\Advanced-mobile-development\PayrollLecture\PayrollLecture\
+build_property.ProjectDir = D:\GitHub\Advanced-mobile-development\PayrollLecture\PayrollLecture\
 
-[C:/Users/thoma/Desktop/Advanced-mobile-development/PayrollLecture/PayrollLecture/App.xaml]
+[D:/GitHub/Advanced-mobile-development/PayrollLecture/PayrollLecture/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PayrollLecture.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/thoma/Desktop/Advanced-mobile-development/PayrollLecture/PayrollLecture/AppShell.xaml]
+[D:/GitHub/Advanced-mobile-development/PayrollLecture/PayrollLecture/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PayrollLecture.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/thoma/Desktop/Advanced-mobile-development/PayrollLecture/PayrollLecture/MainPage.xaml]
+[D:/GitHub/Advanced-mobile-development/PayrollLecture/PayrollLecture/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PayrollLecture.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/thoma/Desktop/Advanced-mobile-development/PayrollLecture/PayrollLecture/Resources/Styles/Colors.xaml]
+[D:/GitHub/Advanced-mobile-development/PayrollLecture/PayrollLecture/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PayrollLecture.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/thoma/Desktop/Advanced-mobile-development/PayrollLecture/PayrollLecture/Resources/Styles/Styles.xaml]
+[D:/GitHub/Advanced-mobile-development/PayrollLecture/PayrollLecture/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PayrollLecture.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
