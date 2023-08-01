@@ -30,25 +30,25 @@
     <AppXManifest Include="D:\Advanced-mobile-development\Phoneword\Phoneword\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-07-25T03:39:03.997</Modified>
+      <Modified>2023-08-01T04:57:10.140</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\Phoneword\Phoneword\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-07-24T15:07:21.800</Modified>
+      <Modified>2023-08-01T04:57:09.176</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\Phoneword\Phoneword\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Phoneword.runtimeconfig.json">
       <PackagePath>Phoneword.runtimeconfig.json</PackagePath>
-      <Modified>2023-07-24T14:11:10.324</Modified>
+      <Modified>2023-08-01T04:57:07.985</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\Phoneword\Phoneword\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Phoneword.dll">
       <PackagePath>Phoneword.dll</PackagePath>
-      <Modified>2023-07-24T15:07:18.946</Modified>
+      <Modified>2023-08-01T04:57:04.546</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\Phoneword\Phoneword\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Phoneword.exe</PackagePath>
-      <Modified>2023-07-24T15:07:19.007</Modified>
+      <Modified>2023-08-01T04:57:04.566</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thoma\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.9\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -920,7 +920,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\Phoneword\Phoneword\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Phoneword.deps.json">
       <PackagePath>Phoneword.deps.json</PackagePath>
-      <Modified>2023-07-25T03:39:03.182</Modified>
+      <Modified>2023-08-01T04:57:09.784</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

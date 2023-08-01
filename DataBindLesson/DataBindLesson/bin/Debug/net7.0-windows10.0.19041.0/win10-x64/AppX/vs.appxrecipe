@@ -30,7 +30,7 @@
     <AppXManifest Include="D:\Advanced-mobile-development\DataBindLesson\DataBindLesson\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-07-25T17:43:07.929</Modified>
+      <Modified>2023-07-31T04:49:57.148</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -940,7 +940,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\DataBindLesson\DataBindLesson\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\DataBindLesson.deps.json">
       <PackagePath>DataBindLesson.deps.json</PackagePath>
-      <Modified>2023-07-25T17:43:07.075</Modified>
+      <Modified>2023-07-31T04:49:56.909</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
