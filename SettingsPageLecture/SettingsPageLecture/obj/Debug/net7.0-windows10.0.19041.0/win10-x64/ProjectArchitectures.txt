@@ -1,0 +1,1 @@
+D:\Advanced-mobile-development\SettingsPageLecture\SettingsPageLecture\SettingsPageLecture.csproj;x64
