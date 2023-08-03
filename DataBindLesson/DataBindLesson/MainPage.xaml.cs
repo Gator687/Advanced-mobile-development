@@ -6,7 +6,7 @@ namespace DataBindLesson;
 public partial class MainPage : ContentPage
 {
 	public DataClass database = new();
-	public List<Conversion> DataList {  get; set; }
+	public List<Conversion> DataList { get; set; } = new();
 	//List, Collection, ObservableCollection
 
 	private void OnSliderChange(object sender, EventArgs e)
