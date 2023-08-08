@@ -10,20 +10,30 @@
             Padding="30,0"
             VerticalOptions="Center">
 
+            <Border
+                Stroke="Green"
+                StrokeThickness="5"
+                StrokeShape="RoundRectangle 40,0,0,40"
+                BackgroundColor="Purple"
+                Padding="20">
             <Image
                 x:Name="PosterImage"
                 Source="blank.png"
                 WidthRequest="{OnPlatform Android='150', iOS='150', Default='250'}"/>
-
-            <Grid>
+            </Border>
+        
+            <!--<Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>--><!--Alien title row--><!--
                     <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>--><!--Friday title row--><!--
                     <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>--><!--Halloween title row--><!--
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <Label Text="Poster"
@@ -38,39 +48,142 @@
                        Grid.Column="1"
                        Grid.Row="0"
                        HorizontalOptions="Center"/>
+                
+                <Label Text="Alien" 
+                       FontSize="Medium" 
+                       HorizontalOptions="Center" 
+                       VerticalOptions="Start"
+                       Grid.Row="1"
+                       Grid.ColumnSpan="2"/>
                 <Image
                     Source="alienposter.jpg"
                     WidthRequest="{OnPlatform Android='150', iOS='150', Default='250'}"
                     Grid.Column="0"
-                    Grid.Row="1"/>
+                    Grid.Row="2"/>
                 <Image
                     Source="alienmonster.jpg"
                     WidthRequest="{OnPlatform Android='150', iOS='150', Default='250'}"
                     Grid.Column="1"
-                    Grid.Row="1"/>
+                    Grid.Row="2"/>
+
+                <Label Text="Friday the 13th" 
+                       FontSize="Medium" 
+                       HorizontalOptions="Center" 
+                       VerticalOptions="Start"
+                       Grid.Row="3"
+                       Grid.ColumnSpan="2"/>
 
                 <Image
                     Source="fridayposter.jpg"
                     WidthRequest="{OnPlatform Android='150', iOS='150', Default='250'}"
                     Grid.Column="0"
-                    Grid.Row="2"/>
+                    Grid.Row="4"/>
                 <Image
                     Source="fridaymonster.jpg"
                     WidthRequest="{OnPlatform Android='150', iOS='150', Default='250'}"
                     Grid.Column="1"
-                    Grid.Row="2"/>
+                    Grid.Row="4"/>
+
+                <Label Text="Halloween" 
+                       FontSize="Medium" 
+                       HorizontalOptions="Center" 
+                       VerticalOptions="Start"
+                       Grid.Row="5"
+                       Grid.ColumnSpan="2"/>
 
                 <Image
                     Source="halloweenposter.jpg"
                     WidthRequest="{OnPlatform Android='150', iOS='150', Default='250'}"
                     Grid.Column="0"
-                    Grid.Row="3"/>
+                    Grid.Row="6"/>
                 <Image
                     Source="halloweenmonster.jpg"
                     WidthRequest="{OnPlatform Android='150', iOS='150', Default='250'}"
                     Grid.Column="1"
-                    Grid.Row="3"/>
-            </Grid>
+                    Grid.Row="6"/>
+            </Grid>-->
+
+            <FlexLayout
+                Wrap="Wrap"
+                Direction="Row"
+                JustifyContent="SpaceEvenly"
+                AlignItems="Start"
+                BackgroundColor="Black">
+
+                <Border
+                    Stroke="AntiqueWhite"
+                    Background="Beige"
+                    Padding="5"
+                    StrokeShape="Rectangle">
+                <VerticalStackLayout>
+                    <Label Text="Alien" FontSize="Medium"/>
+                    <Image
+                        Source="alienposter.jpg"
+                        WidthRequest="{OnPlatform Android='150', iOS='150', Default='250'}"
+                        />
+                </VerticalStackLayout>
+                </Border>
+
+                <Border
+                    Stroke="AntiqueWhite"
+                    Background="Beige"
+                    Padding="5"
+                    StrokeShape="Rectangle"
+                    HeightRequest="350">
+                    <VerticalStackLayout>
+                        <Label Text="Xenomorph" FontSize="Medium"/>
+                        <Image
+                        Source="alienmonster.jpg"
+                        WidthRequest="{OnPlatform Android='150', iOS='150', Default='250'}"
+                    />
+                    </VerticalStackLayout>
+                </Border>
+
+                <Border
+                    Stroke="AntiqueWhite"
+                    Background="Beige"
+                    Padding="5"
+                    StrokeShape="Rectangle"
+                    HeightRequest="350">
+                    <VerticalStackLayout>
+                        <Label Text="Friday the 13th" FontSize="Medium"/>
+                        <Image
+                        Source="fridayposter.jpg"
+                        WidthRequest="{OnPlatform Android='150', iOS='150', Default='250'}"
+                        />
+                    </VerticalStackLayout>
+                </Border>
+
+                <Border
+                    Stroke="AntiqueWhite"
+                    Background="Beige"
+                    Padding="5"
+                    StrokeShape="Rectangle">
+                    <VerticalStackLayout>
+                        <Label Text="Jason Vorhees" FontSize="Medium"/>
+                        <Image
+                        Source="fridaymonster.jpg"
+                        WidthRequest="{OnPlatform Android='150', iOS='150', Default='250'}"
+                        />
+                    </VerticalStackLayout>
+                </Border>
+
+                <VerticalStackLayout>
+                <Label Text="Halloween" FontSize="Medium"/>
+                <Image
+                    Source="halloweenposter.jpg"
+                    WidthRequest="{OnPlatform Android='150', iOS='150', Default='250'}"
+                    />
+                </VerticalStackLayout>
+            
+                <VerticalStackLayout>
+                <Label Text="Micheal Myers" FontSize="Medium"/>
+                <Image
+                    Source="halloweenmonster.jpg"
+                    WidthRequest="{OnPlatform Android='150', iOS='150', Default='250'}"
+                    />
+                </VerticalStackLayout>
+            </FlexLayout>
 
         </VerticalStackLayout>
     </ScrollView>

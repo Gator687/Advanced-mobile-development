@@ -658,3 +658,11 @@ D:\GitHub\Advanced-mobile-development\SettingsPageLecture\SettingsPageLecture\ob
 D:\GitHub\Advanced-mobile-development\SettingsPageLecture\SettingsPageLecture\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\halloweenmonster.scale-100.jpg
 D:\GitHub\Advanced-mobile-development\SettingsPageLecture\SettingsPageLecture\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\halloweenposter.scale-100.jpg
 D:\GitHub\Advanced-mobile-development\SettingsPageLecture\SettingsPageLecture\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\reel.scale-100.jpg
+D:\Advanced-mobile-development\SettingsPageLecture\SettingsPageLecture\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\alienmonster.scale-100.jpg
+D:\Advanced-mobile-development\SettingsPageLecture\SettingsPageLecture\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\alienposter.scale-100.jpg
+D:\Advanced-mobile-development\SettingsPageLecture\SettingsPageLecture\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\blank.scale-100.png
+D:\Advanced-mobile-development\SettingsPageLecture\SettingsPageLecture\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fridaymonster.scale-100.jpg
+D:\Advanced-mobile-development\SettingsPageLecture\SettingsPageLecture\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fridayposter.scale-100.jpg
+D:\Advanced-mobile-development\SettingsPageLecture\SettingsPageLecture\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\halloweenmonster.scale-100.jpg
+D:\Advanced-mobile-development\SettingsPageLecture\SettingsPageLecture\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\halloweenposter.scale-100.jpg
+D:\Advanced-mobile-development\SettingsPageLecture\SettingsPageLecture\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\reel.scale-100.jpg
