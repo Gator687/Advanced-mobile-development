@@ -24013,24 +24013,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\thoma\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Thomas\\.nuget\\packages\\": {},
+    "D:\\Program Files\\VS shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Advanced-mobile-development\\SettingsPageLecture\\SettingsPageLecture\\SettingsPageLecture.csproj",
+      "projectUniqueName": "D:\\GitHub\\Advanced-mobile-development\\SettingsPageLecture\\SettingsPageLecture\\SettingsPageLecture.csproj",
       "projectName": "SettingsPageLecture",
-      "projectPath": "D:\\Advanced-mobile-development\\SettingsPageLecture\\SettingsPageLecture\\SettingsPageLecture.csproj",
-      "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
-      "outputPath": "D:\\Advanced-mobile-development\\SettingsPageLecture\\SettingsPageLecture\\obj\\",
+      "projectPath": "D:\\GitHub\\Advanced-mobile-development\\SettingsPageLecture\\SettingsPageLecture\\SettingsPageLecture.csproj",
+      "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\Advanced-mobile-development\\SettingsPageLecture\\SettingsPageLecture\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "D:\\Program Files\\VS shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\thoma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Thomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

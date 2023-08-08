@@ -22,5 +22,14 @@ public partial class Settings : ContentPage
         {
             Application.Current.Resources["AppBack"] = ColorResource["Back3"];
         }
-    }
+
+        else
+        {
+            Application.Current.Resources["AppBack"] = ColorResource["Back1"];
+        }//end if
+        //do this for each property
+        Color appBack;
+        appBack = (Color)Application.Current.Resources["AppBack"];
+        Preferences.Default.Set("AppBack", appBack.ToHex().ToString());
+    }//end function
 }

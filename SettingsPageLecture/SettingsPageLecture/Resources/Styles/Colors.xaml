@@ -6,7 +6,7 @@
 
     <Color x:Key="Back1">white</Color>
     <Color x:Key="Back2">lightblue</Color>
-    <Color x:Key="Back3">yellow</Color>
+    <Color x:Key="Back3">pink</Color>
     <Color x:Key="AppBack">white</Color>
 
     <Color x:Key="Primary">#512BD4</Color>
