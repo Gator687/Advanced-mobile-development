@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
+             x:Class="MLBTeamsView.MainPage">
+
+    <ScrollView>
+        <StackLayout>
+            <ListView x:Name="TeamsListView" ItemsSource="{Binding MLBTeams}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <HorizontalStackLayout Padding="10">
+                                <Label Text="{Binding TeamName}" FontAttributes="Bold" Padding="5"/>
+                                <Label Text="{Binding City}" Padding="5"/>
+                                <Label Text="{Binding League}" Padding="5"/>
+                            </HorizontalStackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
