@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ContactTracing.MainPage">
+
+    <StackLayout>
+        <Entry x:Name="NameEntry" Placeholder="Name"/>
+        <DatePicker x:Name="DatePicker"/>
+        <Entry x:Name="LocationEntry" Placeholder="Location"/>
+        <Button Text="Add Encounter" Clicked="OnAddEncounterClicked"/>
+        <ScrollView>
+            <ListView x:Name="PeopleListView" ItemsSource="{Binding encounters}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <HorizontalStackLayout Padding="10">
+                                <Label Text="{Binding Name}" FontAttributes="Bold" Padding="5"/>
+                                <Label Text="{Binding Date}" Padding="5"/>
+                                <Label Text="{Binding location}" Padding="5"/>
+                            </HorizontalStackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollView>
+    </StackLayout>
+
+</ContentPage>
