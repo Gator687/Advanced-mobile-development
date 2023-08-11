@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Guido_sPizza.MainPage">
+
+    <ScrollView>
+        <HorizontalStackLayout>
+            <Label Text="Select Pizza Size:" Margin="0,10"/>
+            <Picker x:Name="SizePicker">
+                <Picker.Items>
+                    <x:String>Small</x:String>
+                    <x:String>Medium</x:String>
+                    <x:String>Large</x:String>
+                </Picker.Items>
+            </Picker>
+        </HorizontalStackLayout>
+    </ScrollView>
+
+</ContentPage>
