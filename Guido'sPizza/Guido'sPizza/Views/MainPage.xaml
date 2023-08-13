@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Guido_sPizza.MainPage">
+    <ScrollView BackgroundColor="{DynamicResource AppBack}">
+
+        <StackLayout>
+            <Label Text="Welcome, customer." TextColor="black" FontSize="20" HorizontalOptions="CenterAndExpand" Margin="0,20,0,10"/>
+            <Label Text="Build Your Pizza" TextColor="black" FontSize="20" HorizontalOptions="CenterAndExpand" Margin="0,20,0,10"/>
+
+            <Label Text="Select Pizza Size:" TextColor="black" FontSize="16" Margin="10"/>
+        <Picker x:Name="sizePicker">
+            <Picker.Items>
+                <x:String>Small</x:String>
+                <x:String>Medium</x:String>
+                <x:String>Large</x:String>
+            </Picker.Items>
+        </Picker>
+
+            <Label Text="Select Toppings:" TextColor="black" FontSize="16" Margin="10"/>
+        <HorizontalStackLayout>
+            <CheckBox x:Name="pepperoniCheckbox" Margin="10"/>
+            <Label Text="Pepperoni" TextColor="black" FontSize="16" Margin="10"/>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout>
+            <CheckBox x:Name="mushroomsCheckbox" Margin="10"/>
+            <Label Text="Mushrooms" TextColor="black" FontSize="16" Margin="10"/>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout>
+            <CheckBox x:Name="peppersCheckbox" Margin="10"/>
+            <Label Text="Peppers" TextColor="black" FontSize="16" Margin="10"/>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout>
+            <CheckBox x:Name="baconCheckbox" Margin="10"/>
+            <Label Text="Bacon" TextColor="black" FontSize="16" Margin="10"/>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout>
+            <CheckBox x:Name="sausageCheckbox" Margin="10"/>
+            <Label Text="Sausage" TextColor="black" FontSize="16" Margin="10"/>
+        </HorizontalStackLayout>
+        
+        <Button Text="Build Pizza" Clicked="OnBuildPizzaClicked" HorizontalOptions="CenterAndExpand" Margin="20"/>
+        <Label x:Name="resultLabel" TextColor="black" FontSize="16" HorizontalOptions="CenterAndExpand" Margin="20"/>
+    </StackLayout>
+
+    </ScrollView>
+</ContentPage>

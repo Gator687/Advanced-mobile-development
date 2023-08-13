@@ -12,33 +12,33 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = WeightConversion
-build_property.ProjectDir = D:\Advanced-mobile-development\WeightConversion\WeightConversion\
+build_property.ProjectDir = D:\GitHub\Advanced-mobile-development\WeightConversion\WeightConversion\
 
-[D:/Advanced-mobile-development/WeightConversion/WeightConversion/App.xaml]
+[D:/GitHub/Advanced-mobile-development/WeightConversion/WeightConversion/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WeightConversion.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[D:/Advanced-mobile-development/WeightConversion/WeightConversion/AppShell.xaml]
+[D:/GitHub/Advanced-mobile-development/WeightConversion/WeightConversion/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WeightConversion.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/Advanced-mobile-development/WeightConversion/WeightConversion/MainPage.xaml]
+[D:/GitHub/Advanced-mobile-development/WeightConversion/WeightConversion/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WeightConversion.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[D:/Advanced-mobile-development/WeightConversion/WeightConversion/Resources/Styles/Colors.xaml]
+[D:/GitHub/Advanced-mobile-development/WeightConversion/WeightConversion/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WeightConversion.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[D:/Advanced-mobile-development/WeightConversion/WeightConversion/Resources/Styles/Styles.xaml]
+[D:/GitHub/Advanced-mobile-development/WeightConversion/WeightConversion/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WeightConversion.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

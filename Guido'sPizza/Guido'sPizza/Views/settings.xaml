@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Guido_sPizza.Views.settings"
+             Title="settings">
+
+    <ScrollView BackgroundColor="LightGray">
+        <TableView
+            VerticalOptions="StartAndExpand">
+            <TableRoot>
+                <TableSection Title="Background">
+                    <ViewCell>
+                        <HorizontalStackLayout 
+                            BackgroundColor="{DynamicResource Back1}">
+                            <Label TextColor="black"
+                                Text="White" WidthRequest="100" Padding="30,0,0,0"/>
+                            <RadioButton x:Name="Back1Radio"
+                                         GroupName="BackColors"
+                                         CheckedChanged="OnCheckChange"/>
+                        </HorizontalStackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <HorizontalStackLayout 
+                            BackgroundColor="{DynamicResource Back2}">
+                            <Label TextColor="black"
+                                Text="Blue" WidthRequest="100" Padding="30,0,0,0"/>
+                            <RadioButton x:Name="Back2Radio"
+                                         GroupName="BackColors"
+                                         CheckedChanged="OnCheckChange"/>
+                        </HorizontalStackLayout>
+                    </ViewCell>
+                    <ViewCell>
+                        <HorizontalStackLayout 
+                            BackgroundColor="{DynamicResource Back3}">
+                            <Label TextColor="black" 
+                                Text="Pink" WidthRequest="100" Padding="30,0,0,0"/>
+                            <RadioButton x:Name="Back3Radio"
+                                         GroupName="BackColors"
+                                         CheckedChanged="OnCheckChange"/>
+                        </HorizontalStackLayout>
+                    </ViewCell>
+                </TableSection>
+
+                <TableSection Title="Font Size">
+                    <ViewCell>
+                        <HorizontalStackLayout 
+                            BackgroundColor="{DynamicResource AppBack}">
+                            <Label TextColor="black"
+                                Text="16" WidthRequest="100" Padding="30,0,0,0"/>
+                            <RadioButton x:Name="FontSize1Radio"
+                                         GroupName="FontSize"
+                                         CheckedChanged="OnSizeChange"/>
+                        </HorizontalStackLayout>
+                    </ViewCell>
+
+                    <ViewCell>
+                        <HorizontalStackLayout 
+                            BackgroundColor="{DynamicResource AppBack}">
+                            <Label TextColor="black"
+                                Text="20" WidthRequest="100" Padding="30,0,0,0"/>
+                            <RadioButton x:Name="FontSize2Radio"
+                                         GroupName="FontSize"
+                                         CheckedChanged="OnSizeChange"/>
+                        </HorizontalStackLayout>
+                    </ViewCell>
+
+                    <ViewCell>
+                        <HorizontalStackLayout 
+                            BackgroundColor="{DynamicResource AppBack}">
+                            <Label TextColor="black"
+                                Text="24" WidthRequest="100" Padding="30,0,0,0"/>
+                            <RadioButton x:Name="FontSize3Radio"
+                                         GroupName="FontSize"
+                                         CheckedChanged="OnSizeChange"/>
+                        </HorizontalStackLayout>
+                    </ViewCell>
+                </TableSection>
+            </TableRoot>
+
+        </TableView>
+    </ScrollView>
+</ContentPage>
