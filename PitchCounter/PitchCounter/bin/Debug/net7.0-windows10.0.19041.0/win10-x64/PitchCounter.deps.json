@@ -26,6 +26,11 @@
         },
         "runtime": {
           "PitchCounter.dll": {}
+        },
+        "resources": {
+          "es/PitchCounter.resources.dll": {
+            "locale": "es"
+          }
         }
       },
       "runtimepack.Microsoft.NETCore.App.Runtime.win-x64/7.0.9": {

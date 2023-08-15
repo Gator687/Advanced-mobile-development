@@ -327,3 +327,7 @@ D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-window
 D:\Advanced-mobile-development\PitchCounter\PitchCounter\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\es\PitchCounter.resources.dll
 D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\PitchCounter.Resources.Strings.es.resources
 D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\es\PitchCounter.resources.dll
+D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\database.scale-100.png
+D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png
+D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\person.scale-100.png
+D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings.scale-100.png

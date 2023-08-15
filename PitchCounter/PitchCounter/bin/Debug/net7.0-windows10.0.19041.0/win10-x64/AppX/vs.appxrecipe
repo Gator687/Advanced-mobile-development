@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-08-10T14:01:11.565</Modified>
+      <Modified>2023-08-15T13:19:47.657</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-08-10T13:44:01.868</Modified>
+      <Modified>2023-08-15T13:19:46.826</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\PitchCounter.runtimeconfig.json">
       <PackagePath>PitchCounter.runtimeconfig.json</PackagePath>
@@ -44,15 +44,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\PitchCounter.dll">
       <PackagePath>PitchCounter.dll</PackagePath>
-      <Modified>2023-08-10T13:47:12.580</Modified>
+      <Modified>2023-08-15T13:19:43.531</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PitchCounter.exe</PackagePath>
-      <Modified>2023-08-10T13:47:12.604</Modified>
+      <Modified>2023-08-15T13:19:43.610</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\es\PitchCounter.resources.dll">
       <PackagePath>es\PitchCounter.resources.dll</PackagePath>
-      <Modified>2023-08-10T14:01:09.562</Modified>
+      <Modified>2023-08-15T13:19:45.116</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thoma\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.9\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -924,7 +924,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\PitchCounter.deps.json">
       <PackagePath>PitchCounter.deps.json</PackagePath>
-      <Modified>2023-08-10T14:01:11.065</Modified>
+      <Modified>2023-08-15T13:19:47.360</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -972,207 +972,223 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-08-10T12:34:21.712</Modified>
+      <Modified>2023-08-15T12:51:08.395</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.560</Modified>
+      <Modified>2023-08-15T12:51:09.138</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.579</Modified>
+      <Modified>2023-08-15T12:51:09.162</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.615</Modified>
+      <Modified>2023-08-15T12:51:09.182</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.654</Modified>
+      <Modified>2023-08-15T12:51:09.216</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.806</Modified>
+      <Modified>2023-08-15T12:51:09.329</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.129</Modified>
+      <Modified>2023-08-15T12:51:08.753</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.177</Modified>
+      <Modified>2023-08-15T12:51:08.775</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.269</Modified>
+      <Modified>2023-08-15T12:51:08.853</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.211</Modified>
+      <Modified>2023-08-15T12:51:08.806</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.254</Modified>
+      <Modified>2023-08-15T12:51:08.841</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-08-10T12:34:21.952</Modified>
+      <Modified>2023-08-15T12:51:08.618</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.000</Modified>
+      <Modified>2023-08-15T12:51:08.670</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.122</Modified>
+      <Modified>2023-08-15T12:51:08.745</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.044</Modified>
+      <Modified>2023-08-15T12:51:08.700</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.110</Modified>
+      <Modified>2023-08-15T12:51:08.732</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-08-10T12:34:21.733</Modified>
+      <Modified>2023-08-15T12:51:08.436</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-08-10T12:34:21.740</Modified>
+      <Modified>2023-08-15T12:51:08.443</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-08-10T12:34:21.749</Modified>
+      <Modified>2023-08-15T12:51:08.450</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-08-10T12:34:21.755</Modified>
+      <Modified>2023-08-15T12:51:08.457</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-08-10T12:34:21.767</Modified>
+      <Modified>2023-08-15T12:51:08.467</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-08-10T12:34:21.773</Modified>
+      <Modified>2023-08-15T12:51:08.473</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-08-10T12:34:21.823</Modified>
+      <Modified>2023-08-15T12:51:08.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-08-10T12:34:21.946</Modified>
+      <Modified>2023-08-15T12:51:08.612</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-08-10T12:34:21.889</Modified>
+      <Modified>2023-08-15T12:51:08.565</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-08-10T12:34:21.933</Modified>
+      <Modified>2023-08-15T12:51:08.599</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.374</Modified>
+      <Modified>2023-08-15T12:51:08.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.383</Modified>
+      <Modified>2023-08-15T12:51:08.944</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.395</Modified>
+      <Modified>2023-08-15T12:51:08.954</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.408</Modified>
+      <Modified>2023-08-15T12:51:08.969</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.433</Modified>
+      <Modified>2023-08-15T12:51:08.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.326</Modified>
+      <Modified>2023-08-15T12:51:08.893</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.334</Modified>
+      <Modified>2023-08-15T12:51:08.900</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.342</Modified>
+      <Modified>2023-08-15T12:51:08.905</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.352</Modified>
+      <Modified>2023-08-15T12:51:08.914</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.366</Modified>
+      <Modified>2023-08-15T12:51:08.924</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.279</Modified>
+      <Modified>2023-08-15T12:51:08.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.288</Modified>
+      <Modified>2023-08-15T12:51:08.866</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.297</Modified>
+      <Modified>2023-08-15T12:51:08.871</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.305</Modified>
+      <Modified>2023-08-15T12:51:08.880</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.319</Modified>
+      <Modified>2023-08-15T12:51:08.887</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.444</Modified>
+      <Modified>2023-08-15T12:51:09.006</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.454</Modified>
+      <Modified>2023-08-15T12:51:09.020</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.470</Modified>
+      <Modified>2023-08-15T12:51:09.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.491</Modified>
+      <Modified>2023-08-15T12:51:09.055</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.544</Modified>
+      <Modified>2023-08-15T12:51:09.117</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\database.scale-100.png">
+      <PackagePath>database.scale-100.png</PackagePath>
+      <Modified>2023-08-15T12:49:41.590</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-08-10T12:34:21.744</Modified>
+      <Modified>2023-08-15T12:51:08.345</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-08-10T12:34:21.762</Modified>
+      <Modified>2023-08-15T12:51:08.363</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-08-10T12:34:21.788</Modified>
+      <Modified>2023-08-15T12:51:08.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-08-10T12:34:21.942</Modified>
+      <Modified>2023-08-15T12:51:08.418</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-08-10T12:34:22.038</Modified>
+      <Modified>2023-08-15T12:51:08.499</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png">
+      <PackagePath>home.scale-100.png</PackagePath>
+      <Modified>2023-08-15T12:48:31.752</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\person.scale-100.png">
+      <PackagePath>person.scale-100.png</PackagePath>
+      <Modified>2023-08-15T12:48:58.327</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings.scale-100.png">
+      <PackagePath>settings.scale-100.png</PackagePath>
+      <Modified>2023-08-15T12:49:19.870</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
