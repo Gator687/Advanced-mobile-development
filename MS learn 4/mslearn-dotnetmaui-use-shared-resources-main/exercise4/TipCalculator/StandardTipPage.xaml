@@ -4,7 +4,7 @@
              x:Class="TipCalculator.StandardTipPage"
              Title="Standard Tip">
 
-    <ContentPage.Resources>
+    <!--<ContentPage.Resources>
         <ResourceDictionary>
             <Color x:Key="bgColor">#C0C0C0</Color>
             <Color x:Key="fgColor">#0000AD</Color>
@@ -17,7 +17,7 @@
                 <Setter Property="FontAttributes" Value="Bold" />
             </Style>            
         </ResourceDictionary>
-    </ContentPage.Resources>
+    </ContentPage.Resources>-->
     <Grid x:Name ="LayoutRoot" BackgroundColor="{DynamicResource bgColor}" Padding="10"
           ColumnDefinitions="*, 3*"
           RowDefinitions="Auto, Auto, Auto, Auto, *">
