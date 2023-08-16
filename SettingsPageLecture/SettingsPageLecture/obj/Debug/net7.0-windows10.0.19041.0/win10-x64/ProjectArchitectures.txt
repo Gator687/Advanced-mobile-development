@@ -1,1 +1,1 @@
-D:\GitHub\Advanced-mobile-development\SettingsPageLecture\SettingsPageLecture\SettingsPageLecture.csproj;x64
+D:\Advanced-mobile-development\SettingsPageLecture\SettingsPageLecture\SettingsPageLecture.csproj;x64
