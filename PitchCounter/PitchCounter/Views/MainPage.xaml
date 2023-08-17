@@ -10,7 +10,7 @@
             <Label Text="{x:Static res:Strings.Title}" HorizontalOptions="Center"
                    TextColor="{StaticResource PirateBlack}"
                    FontSize="Large"/>
-        </Frame>
+            </Frame>
             <Grid
             RowSpacing="6"
             ColumnSpacing="0">

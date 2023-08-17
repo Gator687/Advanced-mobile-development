@@ -24,7 +24,7 @@
                 <RowDefinition Height="200"/>
             </Grid.RowDefinitions>
             <Label Text="Player" Grid.Column="0" Grid.Row="0"  HorizontalOptions="Start"/>
-            <Label Text="Player name" Grid.Column="1" Grid.Row="0" />
+            <Label Text="Player name" Grid.Column="1" Grid.Row="0" x:Name="PlayerNameLabel"/>
 
             <Label Text="Balls" Grid.Column="0" Grid.Row="1" HorizontalOptions="Start"/>
             <Label Text="Strikes" Grid.Column="0" Grid.Row="2" HorizontalOptions="Start"/>
@@ -35,5 +35,7 @@
             <Label Text="Total Pithces" Grid.Column="0" Grid.Row="3" x:Name="TotPitches" HorizontalOptions="Start"/>
             <Label Text="0" Grid.Column="1" Grid.Row="3" x:Name="TotalLabel"/>
         </Grid>
+
+        <Button Text="More Info" Clicked="Button_Clicked"/>
     </VerticalStackLayout>
 </ContentPage>

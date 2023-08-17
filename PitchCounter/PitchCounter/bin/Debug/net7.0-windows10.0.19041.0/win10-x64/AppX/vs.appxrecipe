@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-08-15T13:19:47.657</Modified>
+      <Modified>2023-08-17T14:10:56.990</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-08-15T13:19:46.826</Modified>
+      <Modified>2023-08-17T14:10:56.168</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\PitchCounter.runtimeconfig.json">
       <PackagePath>PitchCounter.runtimeconfig.json</PackagePath>
@@ -44,15 +44,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\PitchCounter.dll">
       <PackagePath>PitchCounter.dll</PackagePath>
-      <Modified>2023-08-15T13:19:43.531</Modified>
+      <Modified>2023-08-17T14:10:54.078</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PitchCounter.exe</PackagePath>
-      <Modified>2023-08-15T13:19:43.610</Modified>
+      <Modified>2023-08-17T14:10:54.097</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\es\PitchCounter.resources.dll">
       <PackagePath>es\PitchCounter.resources.dll</PackagePath>
-      <Modified>2023-08-15T13:19:45.116</Modified>
+      <Modified>2023-08-17T14:10:55.734</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thoma\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.9\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -924,7 +924,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\PitchCounter.deps.json">
       <PackagePath>PitchCounter.deps.json</PackagePath>
-      <Modified>2023-08-15T13:19:47.360</Modified>
+      <Modified>2023-08-17T14:10:56.778</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

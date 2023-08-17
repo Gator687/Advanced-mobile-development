@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\Advanced-mobile-development\\Guido'sPizza\\Guido'sPizza\\Guido'sPizza.csproj": {}
+    "D:\\Advanced-mobile-development\\Guido'sPizza\\Guido'sPizza\\Guido'sPizza.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\Advanced-mobile-development\\Guido'sPizza\\Guido'sPizza\\Guido'sPizza.csproj": {
+    "D:\\Advanced-mobile-development\\Guido'sPizza\\Guido'sPizza\\Guido'sPizza.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\Advanced-mobile-development\\Guido'sPizza\\Guido'sPizza\\Guido'sPizza.csproj",
+        "projectUniqueName": "D:\\Advanced-mobile-development\\Guido'sPizza\\Guido'sPizza\\Guido'sPizza.csproj",
         "projectName": "Guido'sPizza",
-        "projectPath": "D:\\GitHub\\Advanced-mobile-development\\Guido'sPizza\\Guido'sPizza\\Guido'sPizza.csproj",
-        "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\Advanced-mobile-development\\Guido'sPizza\\Guido'sPizza\\obj\\",
+        "projectPath": "D:\\Advanced-mobile-development\\Guido'sPizza\\Guido'sPizza\\Guido'sPizza.csproj",
+        "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
+        "outputPath": "D:\\Advanced-mobile-development\\Guido'sPizza\\Guido'sPizza\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
-          "D:\\Program Files\\VS shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Thomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\thoma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
