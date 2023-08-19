@@ -30,7 +30,7 @@
     <AppXManifest Include="D:\Advanced-mobile-development\DataBindLesson\DataBindLesson\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-08-02T15:51:40.708</Modified>
+      <Modified>2023-08-18T17:16:18.496</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\DataBindLesson\DataBindLesson\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\DataBindLesson.dll">
       <PackagePath>DataBindLesson.dll</PackagePath>
-      <Modified>2023-08-02T15:51:36.461</Modified>
+      <Modified>2023-08-18T17:16:15.765</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\DataBindLesson\DataBindLesson\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>DataBindLesson.exe</PackagePath>
-      <Modified>2023-08-02T15:51:36.508</Modified>
+      <Modified>2023-08-18T17:16:15.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thoma\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.9\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -940,7 +940,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\DataBindLesson\DataBindLesson\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\DataBindLesson.deps.json">
       <PackagePath>DataBindLesson.deps.json</PackagePath>
-      <Modified>2023-08-02T15:51:40.179</Modified>
+      <Modified>2023-08-18T17:16:18.268</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

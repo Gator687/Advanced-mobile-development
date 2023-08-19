@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FontSizeApp.MainPage"
+             BindingContext="{x:Reference MainPage}">
+
+    <ScrollView>
+        <StackLayout>
+        <Label Text="Hello, .NET MAUI!" BindingContext="{x:Reference FontSizeSlider}" FontSize="{Binding Value}" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+        <Button Text="Click me!" Clicked="OnButtonClicked" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+    </StackLayout>
+    </ScrollView>
+
+</ContentPage>
