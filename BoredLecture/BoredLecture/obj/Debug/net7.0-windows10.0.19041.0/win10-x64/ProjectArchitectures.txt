@@ -1,0 +1,1 @@
+D:\Advanced-mobile-development\BoredLecture\BoredLecture\BoredLecture.csproj;x64

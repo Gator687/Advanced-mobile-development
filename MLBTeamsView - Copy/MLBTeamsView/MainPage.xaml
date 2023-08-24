@@ -10,16 +10,52 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <HorizontalStackLayout Padding="10">
-                                <Label Text="{Binding TeamName}" FontAttributes="Bold" Padding="5"/>
-                                <Label Text="{Binding City}" Padding="5"/>
-                                <Label Text="{Binding League}" Padding="5"/>
-                            </HorizontalStackLayout>
+                            <Grid Padding="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Text="{Binding TeamName}" 
+                                       Grid.Row="0" Grid.Column="0" 
+                                       Grid.ColumnSpan="3" 
+                                       FontAttributes="Bold" 
+                                       Padding="2"/>
+                                <Label Text="{Binding City}" 
+                                       Grid.Row="0" Grid.Column="1" 
+                                       Padding="2"/>
+                                <Label Text="{Binding League}" 
+                                       Grid.Row="0" Grid.Column="2" 
+                                       Padding="2"/>
+                            </Grid>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+            
+            <FlexLayout
+                Wrap="Wrap"
+                Direction="Row"
+                JustifyContent="SpaceEvenly"
+                AlignItems="Start"
+                BackgroundColor="Black">
+
+                <VerticalStackLayout>
+                    <Label Text="Yankees" FontSize="Medium"/>
+                    <Image Source="yankees .jpg"
+                           WidthRequest="{OnPlatform Android='150', iOS='150', Default='250'}"
+                           />
+                </VerticalStackLayout>
+                
+                
+            </FlexLayout>   
         </StackLayout>
     </ScrollView>
 
 </ContentPage>
+
