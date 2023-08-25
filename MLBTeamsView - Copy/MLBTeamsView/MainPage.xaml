@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"            
              x:Class="MLBTeamsView.MainPage">
 
     <ScrollView>
@@ -10,7 +9,7 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Grid Padding="10">
+                            <Grid Padding="5">
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="Auto"/>
                                     <RowDefinition Height="Auto"/>
@@ -42,14 +41,56 @@
                 Wrap="Wrap"
                 Direction="Row"
                 JustifyContent="SpaceEvenly"
-                AlignItems="Start"
-                BackgroundColor="Black">
+                AlignItems="Start">
 
                 <VerticalStackLayout>
-                    <Label Text="Yankees" FontSize="Medium"/>
-                    <Image Source="yankees .jpg"
-                           WidthRequest="{OnPlatform Android='150', iOS='150', Default='250'}"
-                           />
+                    <HorizontalStackLayout>
+                    <VerticalStackLayout>
+                        <Label Text="Yankees" FontSize="Medium"/>
+                        <Image Source="yankees.jpg"
+                           WidthRequest="{OnPlatform Android='250', iOS='250', Default='250'}"
+                           HeightRequest="{OnPlatform Android='250', iOS='250', Default='250'}"
+                           GestureRecognizers="{Binding Source={x:Reference thisPage}, Path=ImageTapCommand}" 
+                           CommandParameter="Description 1"/>
+                    </VerticalStackLayout>
+
+                    <VerticalStackLayout>
+                        <Label Text="Dodgers" FontSize="Medium"/>
+                        <Image Source="dodgers.jpg"
+                           WidthRequest="{OnPlatform Android='250', iOS='250', Default='250'}"
+                           HeightRequest="{OnPlatform Android='250', iOS='250', Default='250'}"/>
+                    </VerticalStackLayout>
+
+                    <VerticalStackLayout>
+                        <Label Text="Nationals" FontSize="Medium"/>
+                        <Image Source="nationals.jpg"
+                           WidthRequest="{OnPlatform Android='250', iOS='250', Default='250'}"
+                           HeightRequest="{OnPlatform Android='250', iOS='250', Default='250'}"/>
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+                
+                    <HorizontalStackLayout>
+                        <VerticalStackLayout>
+                            <Label Text="Tigers" FontSize="Medium"/>
+                            <Image Source="tigers.jpg"
+                           WidthRequest="{OnPlatform Android='250', iOS='250', Default='250'}"
+                           HeightRequest="{OnPlatform Android='250', iOS='250', Default='250'}"/>
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout>
+                            <Label Text="Braves" FontSize="Medium"/>
+                            <Image Source="braves.jpg"
+                           WidthRequest="{OnPlatform Android='250', iOS='250', Default='250'}"
+                           HeightRequest="{OnPlatform Android='250', iOS='250', Default='250'}"/>
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout>
+                            <Label Text="Mariners" FontSize="Medium"/>
+                            <Image Source="mariners.jpg"
+                           WidthRequest="{OnPlatform Android='250', iOS='250', Default='250'}"
+                           HeightRequest="{OnPlatform Android='250', iOS='250', Default='250'}"/>
+                        </VerticalStackLayout>
+                    </HorizontalStackLayout>
                 </VerticalStackLayout>
                 
                 

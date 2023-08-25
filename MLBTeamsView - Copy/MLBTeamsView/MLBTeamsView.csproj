@@ -49,11 +49,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiImage Remove="Resources\Images\yankees.jpg" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <None Remove="Resources\Images\yankees .jpg" />
 	  <None Remove="Resources\Images\yankees.jpg" />
 	</ItemGroup>
 
