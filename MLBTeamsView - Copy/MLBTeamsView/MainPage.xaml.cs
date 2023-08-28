@@ -4,7 +4,6 @@ namespace MLBTeamsView;
 
 public partial class MainPage : ContentPage
 {
-    public Command ImageTapCommand { get; }
     public BaseballTeam[] TeamsArray = new BaseballTeam[6];
     public MainPage()
 	{
@@ -17,13 +16,6 @@ public partial class MainPage : ContentPage
         TeamsArray[5] = new BaseballTeam("Braves", "Atlanta", "National League");
 
         TeamsListView.ItemsSource = TeamsArray;
-
-        ImageTapCommand = new Command<string>(async (description) =>
-        {
-            await DisplayAlert("Image Description", description, "OK");
-        });
-
-        BindingContext = this;
     }
 
 }

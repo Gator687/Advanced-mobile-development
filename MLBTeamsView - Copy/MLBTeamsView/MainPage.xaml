@@ -49,9 +49,7 @@
                         <Label Text="Yankees" FontSize="Medium"/>
                         <Image Source="yankees.jpg"
                            WidthRequest="{OnPlatform Android='250', iOS='250', Default='250'}"
-                           HeightRequest="{OnPlatform Android='250', iOS='250', Default='250'}"
-                           GestureRecognizers="{Binding Source={x:Reference thisPage}, Path=ImageTapCommand}" 
-                           CommandParameter="Description 1"/>
+                           HeightRequest="{OnPlatform Android='250', iOS='250', Default='250'}"/>
                     </VerticalStackLayout>
 
                     <VerticalStackLayout>
