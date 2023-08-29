@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using PitchCounter.ViewModels;
 
 namespace PitchCounter;
 
@@ -14,11 +15,9 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
-
-#if DEBUG
-		builder.Logging.AddDebug();
-#endif
-
+		string dbPath = System.IO.Path.Combine(FileSystem.AppDataDirectory, "pitcher.db3");
+		builder.Services.AddSingleton<PitcherDatabase>(s => 
+		ActivatorUtilities.CreateInstance<PitcherDatabase>(s, dbPath));
 		return builder.Build();
 	}
 }

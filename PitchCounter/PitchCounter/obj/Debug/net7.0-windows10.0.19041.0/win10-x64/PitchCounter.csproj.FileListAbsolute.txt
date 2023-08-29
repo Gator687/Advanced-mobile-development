@@ -664,3 +664,9 @@ D:\GitHub\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0
 D:\GitHub\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\GitHub\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\GitHub\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+D:\Advanced-mobile-development\PitchCounter\PitchCounter\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLite-net.dll
+D:\Advanced-mobile-development\PitchCounter\PitchCounter\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.batteries_v2.dll
+D:\Advanced-mobile-development\PitchCounter\PitchCounter\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.nativelibrary.dll
+D:\Advanced-mobile-development\PitchCounter\PitchCounter\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.core.dll
+D:\Advanced-mobile-development\PitchCounter\PitchCounter\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\Advanced-mobile-development\PitchCounter\PitchCounter\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\e_sqlite3.dll
