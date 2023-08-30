@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ViewsApp.Views.BaseballTeams"
+             Title="BaseballTeams">
+    <ScrollView BackgroundColor="{StaticResource Orange}">
+        <StackLayout>
+            <ListView x:Name="TeamsListView" ItemsSource="{Binding MLBTeams}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="5">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Text="{Binding TeamName}" 
+                                       Grid.Row="0" Grid.Column="0" 
+                                       Grid.ColumnSpan="3" 
+                                       FontAttributes="Bold" 
+                                       Padding="2"/>
+                                <Label Text="{Binding City}" 
+                                       Grid.Row="0" Grid.Column="1" 
+                                       Padding="2"/>
+                                <Label Text="{Binding League}" 
+                                       Grid.Row="0" Grid.Column="2" 
+                                       Padding="2"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <FlexLayout
+                Wrap="Wrap"
+                Direction="Row"
+                JustifyContent="SpaceEvenly"
+                AlignItems="Start">
+
+                <VerticalStackLayout>
+                    <HorizontalStackLayout>
+                        <VerticalStackLayout>
+                            <Label Text="Yankees" FontSize="Medium"/>
+                            <Image Source="yankees.jpg"
+                           WidthRequest="{OnPlatform Android='250', iOS='250', Default='250'}"
+                           HeightRequest="{OnPlatform Android='250', iOS='250', Default='250'}"/>
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout>
+                            <Label Text="Dodgers" FontSize="Medium"/>
+                            <Image Source="dodgers.jpg"
+                           WidthRequest="{OnPlatform Android='250', iOS='250', Default='250'}"
+                           HeightRequest="{OnPlatform Android='250', iOS='250', Default='250'}"/>
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout>
+                            <Label Text="Nationals" FontSize="Medium"/>
+                            <Image Source="nationals.jpg"
+                           WidthRequest="{OnPlatform Android='250', iOS='250', Default='250'}"
+                           HeightRequest="{OnPlatform Android='250', iOS='250', Default='250'}"/>
+                        </VerticalStackLayout>
+                    </HorizontalStackLayout>
+
+                    <HorizontalStackLayout>
+                        <VerticalStackLayout>
+                            <Label Text="Tigers" FontSize="Medium"/>
+                            <Image Source="tigers.jpg"
+                           WidthRequest="{OnPlatform Android='250', iOS='250', Default='250'}"
+                           HeightRequest="{OnPlatform Android='250', iOS='250', Default='250'}"/>
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout>
+                            <Label Text="Braves" FontSize="Medium"/>
+                            <Image Source="braves.jpg"
+                           WidthRequest="{OnPlatform Android='250', iOS='250', Default='250'}"
+                           HeightRequest="{OnPlatform Android='250', iOS='250', Default='250'}"/>
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout>
+                            <Label Text="Mariners" FontSize="Medium"/>
+                            <Image Source="mariners.jpg"
+                           WidthRequest="{OnPlatform Android='250', iOS='250', Default='250'}"
+                           HeightRequest="{OnPlatform Android='250', iOS='250', Default='250'}"/>
+                        </VerticalStackLayout>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+
+
+            </FlexLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

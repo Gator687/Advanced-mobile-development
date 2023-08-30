@@ -1,0 +1,1 @@
+D:\GitHub\Advanced-mobile-development\ViewsApp\ViewsApp\ViewsApp.csproj;x64

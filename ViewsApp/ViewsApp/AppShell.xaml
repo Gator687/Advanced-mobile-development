@@ -4,13 +4,25 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:ViewsApp"
-    Shell.FlyoutBehavior="Flyout"S>
+    xmlns:views="clr-namespace:ViewsApp.Views"
+    Shell.FlyoutBehavior="Flyout">
 
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Route="MainPage"
+        Icon="home.png"/>
+        <ShellContent
+        Title="BaseballTeams"
+        ContentTemplate="{DataTemplate views:BaseballTeams}"
+        Route="BaseballTeams"
+        Icon="baseball.png"/>
+        <ShellContent
+        Title="Pizza"
+        ContentTemplate="{DataTemplate views:Pizza}"
+        Route="Pizza"
+        Icon="pizza.png"/>
     </FlyoutItem>
 
 </Shell>
