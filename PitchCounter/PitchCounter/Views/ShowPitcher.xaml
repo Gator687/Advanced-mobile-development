@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PitchCounter.Views.ShowPitcher"
+             Title="ShowPitcher">
+    <ScrollView BackgroundColor="{StaticResource PirateBlack}">
+        <VerticalStackLayout>
+            <Frame BackgroundColor="{StaticResource PirateYellow}" 
+                   Padding="24" 
+                   Margin="0,0,0,24" 
+                   CornerRadius="0">
+                <Label Text="Pitcher List" HorizontalOptions="Center"
+                   TextColor="{StaticResource PirateBlack}"
+                   FontSize="Large"/>
+            </Frame>
+       </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

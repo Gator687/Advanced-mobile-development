@@ -904,7 +904,14 @@
     <AppxPackagedFile Include="D:\GitHub\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png">
       <PackagePath>home.scale-100.png</PackagePath>
     </AppxPackagedFile>
+<<<<<<< Updated upstream
     <AppxPackagedFile Include="D:\GitHub\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\person.scale-100.png">
+=======
+    <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\people.scale-100.png">
+      <PackagePath>people.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\person.scale-100.png">
+>>>>>>> Stashed changes
       <PackagePath>person.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\Advanced-mobile-development\PitchCounter\PitchCounter\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\settings.scale-100.png">
