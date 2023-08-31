@@ -16,6 +16,7 @@
             <Label
                 Text="Come enjoy some Baseball and Pizza!"
                 FontSize="24"
+                FontFamily="Sporting"
                 VerticalOptions="Center" />
 
                 <Image Source="supremepizza.jpg"

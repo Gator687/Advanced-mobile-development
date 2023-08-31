@@ -49,6 +49,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Fonts\Sporting-ZVDo8.ttf" />
 	  <None Remove="Resources\Images\baseball.png" />
 	  <None Remove="Resources\Images\home.png" />
 	  <None Remove="Resources\Images\pizza.png" />
