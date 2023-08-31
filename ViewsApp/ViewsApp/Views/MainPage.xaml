@@ -13,13 +13,42 @@
             WidthRequest="{OnPlatform Android='250', iOS='250', Default='250'}"
             HeightRequest="{OnPlatform Android='250', iOS='250', Default='250'}"/>
 
-            <Label
+            <VerticalStackLayout
+                VerticalOptions="Center">
+
+                <Label
+                Text="Pizza and Baseball"
+                FontSize="32"
+                FontFamily="Sporting"
+                HorizontalOptions="Center"/>
+
+                <Label
                 Text="Come enjoy some Baseball and Pizza!"
                 FontSize="24"
                 FontFamily="Sporting"
-                VerticalOptions="Center" />
+                HorizontalOptions="Center"/>
 
-                <Image Source="supremepizza.jpg"
+                <Label
+                Text="This app shows baseball teams and allows the ordering of pizza"
+                FontSize="24"
+                FontFamily="Sporting"
+                HorizontalOptions="Center"/>
+
+                <Label
+                Text="The first page shows baseball teams"
+                FontSize="24"
+                FontFamily="Sporting"
+                HorizontalOptions="Center"/>
+
+                <Label
+                Text="The second page is where you order pizza"
+                FontSize="24"
+                FontFamily="Sporting"
+                HorizontalOptions="Center"/>
+
+            </VerticalStackLayout>
+
+            <Image Source="supremepizza.jpg"
             WidthRequest="{OnPlatform Android='250', iOS='250', Default='250'}"
             HeightRequest="{OnPlatform Android='250', iOS='250', Default='250'}"/>
 
