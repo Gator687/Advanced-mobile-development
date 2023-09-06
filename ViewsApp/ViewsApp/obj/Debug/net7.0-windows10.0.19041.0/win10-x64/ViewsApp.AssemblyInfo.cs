@@ -22,6 +22,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyProductAttribute("ViewsApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ViewsApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Resources.NeutralResourcesLanguageAttribute("en-US")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows10.0.19041.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows10.0.17763.0")]
 

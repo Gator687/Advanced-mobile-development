@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ViewsApp.MainPage">
+             x:Class="ViewsApp.MainPage"
+             xmlns:res="clr-namespace:ViewsApp.Resources">
 
     <ScrollView BackgroundColor="{StaticResource Orange}">
         <HorizontalStackLayout
@@ -17,34 +18,36 @@
                 VerticalOptions="Center">
 
                 <Label
-                Text="Pizza and Baseball"
+                x:Name="TitleLabel"
+                Text="{x:Static res:Strings.Title}"
                 FontSize="32"
-                FontFamily="Sporting"
                 HorizontalOptions="Center"/>
 
                 <Label
-                Text="Come enjoy some Baseball and Pizza!"
+                x:Name="DescLabel"
+                Text="{x:Static res:Strings.Desc}"
                 FontSize="24"
-                FontFamily="Sporting"
                 HorizontalOptions="Center"/>
 
                 <Label
-                Text="This app shows baseball teams and allows the ordering of pizza"
+                x:Name="OverviewLabel"
+                Text="{x:Static res:Strings.Overview}"
                 FontSize="24"
-                FontFamily="Sporting"
                 HorizontalOptions="Center"/>
 
                 <Label
-                Text="The first page shows baseball teams"
+                x:Name="p1Label"
+                Text="{x:Static res:Strings.p1}"
                 FontSize="24"
-                FontFamily="Sporting"
                 HorizontalOptions="Center"/>
 
                 <Label
-                Text="The second page is where you order pizza"
+                x:Name="p2Label"
+                Text="{x:Static res:Strings.p2}"
                 FontSize="24"
-                FontFamily="Sporting"
                 HorizontalOptions="Center"/>
+
+                <Button Text="Change Language" Clicked="ChangeLanguageButton_Clicked"/>
 
             </VerticalStackLayout>
 

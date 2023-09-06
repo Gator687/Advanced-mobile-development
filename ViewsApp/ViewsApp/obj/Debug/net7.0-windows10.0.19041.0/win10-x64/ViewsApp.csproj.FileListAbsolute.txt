@@ -675,3 +675,8 @@ D:\Advanced-mobile-development\ViewsApp\ViewsApp\obj\Debug\net7.0-windows10.0.19
 D:\Advanced-mobile-development\ViewsApp\ViewsApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ViewsApp.Resources.Strings.es.resources
 D:\Advanced-mobile-development\ViewsApp\ViewsApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ViewsApp.csproj.GenerateResource.cache
 D:\Advanced-mobile-development\ViewsApp\ViewsApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\es\ViewsApp.resources.dll
+D:\GitHub\Advanced-mobile-development\ViewsApp\ViewsApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\es\ViewsApp.resources.dll
+D:\GitHub\Advanced-mobile-development\ViewsApp\ViewsApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ViewsApp.Resources.Strings.resources
+D:\GitHub\Advanced-mobile-development\ViewsApp\ViewsApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ViewsApp.Resources.Strings.es.resources
+D:\GitHub\Advanced-mobile-development\ViewsApp\ViewsApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ViewsApp.csproj.GenerateResource.cache
+D:\GitHub\Advanced-mobile-development\ViewsApp\ViewsApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\es\ViewsApp.resources.dll
