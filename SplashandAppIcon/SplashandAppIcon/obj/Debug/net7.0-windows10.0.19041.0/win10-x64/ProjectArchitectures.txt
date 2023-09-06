@@ -1,0 +1,1 @@
+D:\Advanced-mobile-development\SplashandAppIcon\SplashandAppIcon\SplashandAppIcon.csproj;x64
