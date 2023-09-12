@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CustomControl.MainPage"
+             xmlns:controls="clr-namespace:CustomControl.Controls">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+            <Label Text="Custom Reusable Controls" FontSize="Large"/>
+            <controls:Likert Question="Titanfall 2 is the best"></controls:Likert>
+            <controls:Likert Question="Team Forstress 2 is funny"/>
+            <controls:Likert x:Name="TF2Likert" Question="TF2 is better than TF2"/>
+
+            <Label BindingContext="{x:Reference TF2Likert}" Text="{Binding Value}" FontSize="Large"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

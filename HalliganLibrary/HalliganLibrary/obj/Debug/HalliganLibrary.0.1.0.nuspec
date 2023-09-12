@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>HalliganLibrary</id>
+    <version>0.1.0</version>
+    <title>Halligan Likert Scale</title>
+    <authors>HalliganLibrary</authors>
+    <description>A working Likert scale that allows bindable questions and values</description>
+    <dependencies>
+      <group targetFramework="net7.0" />
+      <group targetFramework="net7.0-android33.0" />
+      <group targetFramework="net7.0-ios16.1" />
+      <group targetFramework="net7.0-maccatalyst16.1" />
+      <group targetFramework="net7.0-windows10.0.19041" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Advanced-mobile-development\HalliganLibrary\HalliganLibrary\bin\Debug\net7.0\HalliganLibrary.dll" target="lib\net7.0\HalliganLibrary.dll" />
+    <file src="D:\Advanced-mobile-development\HalliganLibrary\HalliganLibrary\bin\Debug\net7.0-android\HalliganLibrary.dll" target="lib\net7.0-android33.0\HalliganLibrary.dll" />
+    <file src="D:\Advanced-mobile-development\HalliganLibrary\HalliganLibrary\bin\Debug\net7.0-android\HalliganLibrary.xml" target="lib\net7.0-android33.0\HalliganLibrary.xml" />
+    <file src="D:\Advanced-mobile-development\HalliganLibrary\HalliganLibrary\bin\Debug\net7.0-ios\HalliganLibrary.dll" target="lib\net7.0-ios16.1\HalliganLibrary.dll" />
+    <file src="D:\Advanced-mobile-development\HalliganLibrary\HalliganLibrary\bin\Debug\net7.0-maccatalyst\HalliganLibrary.dll" target="lib\net7.0-maccatalyst16.1\HalliganLibrary.dll" />
+    <file src="D:\Advanced-mobile-development\HalliganLibrary\HalliganLibrary\bin\Debug\net7.0-windows10.0.19041.0\HalliganLibrary.dll" target="lib\net7.0-windows10.0.19041\HalliganLibrary.dll" />
+    <file src="D:\Advanced-mobile-development\HalliganLibrary\HalliganLibrary\bin\Debug\net7.0-android\HalliganLibrary.aar" target="lib\net7.0-android33.0\HalliganLibrary.aar" />
+  </files>
+</package>

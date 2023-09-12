@@ -1,0 +1,13 @@
+D:\Advanced-mobile-development\HalliganLibrary\HalliganLibrary\bin\Debug\net7.0-windows10.0.19041.0\HalliganLibrary.deps.json
+D:\Advanced-mobile-development\HalliganLibrary\HalliganLibrary\bin\Debug\net7.0-windows10.0.19041.0\HalliganLibrary.dll
+D:\Advanced-mobile-development\HalliganLibrary\HalliganLibrary\bin\Debug\net7.0-windows10.0.19041.0\HalliganLibrary.pdb
+D:\Advanced-mobile-development\HalliganLibrary\HalliganLibrary\obj\Debug\net7.0-windows10.0.19041.0\HalliganLibrary.csproj.AssemblyReference.cache
+D:\Advanced-mobile-development\HalliganLibrary\HalliganLibrary\obj\Debug\net7.0-windows10.0.19041.0\HalliganLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Advanced-mobile-development\HalliganLibrary\HalliganLibrary\obj\Debug\net7.0-windows10.0.19041.0\HalliganLibrary.AssemblyInfoInputs.cache
+D:\Advanced-mobile-development\HalliganLibrary\HalliganLibrary\obj\Debug\net7.0-windows10.0.19041.0\HalliganLibrary.AssemblyInfo.cs
+D:\Advanced-mobile-development\HalliganLibrary\HalliganLibrary\obj\Debug\net7.0-windows10.0.19041.0\HalliganLibrary.csproj.CoreCompileInputs.cache
+D:\Advanced-mobile-development\HalliganLibrary\HalliganLibrary\obj\Debug\net7.0-windows10.0.19041.0\XamlC.stamp
+D:\Advanced-mobile-development\HalliganLibrary\HalliganLibrary\obj\Debug\net7.0-windows10.0.19041.0\HalliganLibrary.dll
+D:\Advanced-mobile-development\HalliganLibrary\HalliganLibrary\obj\Debug\net7.0-windows10.0.19041.0\refint\HalliganLibrary.dll
+D:\Advanced-mobile-development\HalliganLibrary\HalliganLibrary\obj\Debug\net7.0-windows10.0.19041.0\HalliganLibrary.pdb
+D:\Advanced-mobile-development\HalliganLibrary\HalliganLibrary\obj\Debug\net7.0-windows10.0.19041.0\ref\HalliganLibrary.dll
