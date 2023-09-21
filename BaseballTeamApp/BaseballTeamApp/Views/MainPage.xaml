@@ -1,0 +1,17 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BaseballTeamApp.MainPage">
+
+    <StackLayout>
+        <Label Text="Baseball Team Information" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+
+        <Entry Placeholder="Team Name" x:Name="teamNameEntry" />
+        <Entry Placeholder="City" x:Name="cityEntry" />
+        <Entry Placeholder="League" x:Name="leagueEntry" />
+
+        <Button Text="Save" Clicked="OnSaveClicked" />
+        <Button Text="Clear" Clicked="OnClearClicked" />
+
+        <Button Text="View Database" Clicked="OnViewDatabaseClicked" />
+    </StackLayout>
+</ContentPage>
