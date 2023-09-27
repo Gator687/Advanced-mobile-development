@@ -1,0 +1,1 @@
+D:\GitHub\Advanced-mobile-development\WordleSuggestions\WordleSuggestions\WordleSuggestions.csproj;x64

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WordleSuggestions.MainPage">
+
+    <ScrollView>
+
+        <StackLayout>
+            <Label Text="Wordle Suggestion Generator" HorizontalOptions="Center" Margin="10,10,10,0" FontSize="20" />
+
+            <FlexLayout FlowDirection="LeftToRight" Wrap="Wrap" AlignContent="Center" HorizontalOptions="Center">
+
+                <!-- Frame 1 -->
+                <Frame BorderColor="Black" CornerRadius="5" Padding="20" WidthRequest="150" HeightRequest="150" Margin="10">
+                    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                        <!-- Entry is the letter with a max length of 1 -->
+                        <Entry x:Name="Letter1" MaxLength="1" HorizontalTextAlignment="Center"/>
+                        <!-- The picker is the color list with the 3 value types -->
+                        <Picker x:Name="Letter1Color" HorizontalOptions="Center">
+                            <Picker.ItemsSource>
+                                <x:Array Type="{x:Type x:String}">
+                                    <x:String>Gray</x:String>
+                                    <x:String>Yellow</x:String>
+                                    <x:String>Green</x:String>
+                                </x:Array>
+                            </Picker.ItemsSource>
+                        </Picker>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Frame 2 -->
+                <Frame BorderColor="Black" CornerRadius="5" Padding="20" WidthRequest="150" HeightRequest="150" Margin="10">
+                    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                        <!-- Entry is the letter with a max length of 1 -->
+                        <Entry x:Name="Letter2" MaxLength="1" HorizontalTextAlignment="Center"/>
+                        <!-- The picker is the color list with the 3 value types -->
+                        <Picker x:Name="Letter2Color" HorizontalOptions="Center">
+                            <Picker.ItemsSource>
+                                <x:Array Type="{x:Type x:String}">
+                                    <x:String>Gray</x:String>
+                                    <x:String>Yellow</x:String>
+                                    <x:String>Green</x:String>
+                                </x:Array>
+                            </Picker.ItemsSource>
+                        </Picker>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Frame 3 -->
+                <Frame BorderColor="Black" CornerRadius="5" Padding="20" WidthRequest="150" HeightRequest="150" Margin="10">
+                    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                        <!-- Entry is the letter with a max length of 1 -->
+                        <Entry x:Name="Letter3" MaxLength="1" HorizontalTextAlignment="Center"/>
+                        <!-- The picker is the color list with the 3 value types -->
+                        <Picker x:Name="Letter3Color" HorizontalOptions="Center">
+                            <Picker.ItemsSource>
+                                <x:Array Type="{x:Type x:String}">
+                                    <x:String>Gray</x:String>
+                                    <x:String>Yellow</x:String>
+                                    <x:String>Green</x:String>
+                                </x:Array>
+                            </Picker.ItemsSource>
+                        </Picker>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Frame 4 -->
+                <Frame BorderColor="Black" CornerRadius="5" Padding="20" WidthRequest="150" HeightRequest="150" Margin="10">
+                    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                        <!-- Entry is the letter with a max length of 1 -->
+                        <Entry x:Name="Letter4" MaxLength="1" HorizontalTextAlignment="Center"/>
+                        <!-- The picker is the color list with the 3 value types -->
+                        <Picker x:Name="Letter4Color" HorizontalOptions="Center">
+                            <Picker.ItemsSource>
+                                <x:Array Type="{x:Type x:String}">
+                                    <x:String>Gray</x:String>
+                                    <x:String>Yellow</x:String>
+                                    <x:String>Green</x:String>
+                                </x:Array>
+                            </Picker.ItemsSource>
+                        </Picker>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Frame 5 -->
+                <Frame BorderColor="Black" CornerRadius="5" Padding="20" WidthRequest="150" HeightRequest="150" Margin="10">
+                    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                        <!-- Entry is the letter with a max length of 1 -->
+                        <Entry x:Name="Letter5" MaxLength="1" HorizontalTextAlignment="Center"/>
+                        <!-- The picker is the color list with the 3 value types -->
+                        <Picker x:Name="Letter5Color" HorizontalOptions="Center">
+                            <Picker.ItemsSource>
+                                <x:Array Type="{x:Type x:String}">
+                                    <x:String>Gray</x:String>
+                                    <x:String>Yellow</x:String>
+                                    <x:String>Green</x:String>
+                                </x:Array>
+                            </Picker.ItemsSource>
+                        </Picker>
+                    </StackLayout>
+                </Frame>
+            </FlexLayout>
+
+            <Button Pressed="OnGenerateClicked" Text="GENERATE LIST!" HorizontalOptions="Center" Margin="10,10,10,0" FontSize="20"/>
+            <Button Pressed="OnResetButtonClicked" Text="Reset" HorizontalOptions="Center" Margin="10,10,10,0" FontSize="20"/>
+            
+            <ListView x:Name="ReturnedOutput" ItemsSource="{Binding generationList}" Margin="15" HorizontalOptions="CenterAndExpand">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout HorizontalOptions="CenterAndExpand">
+                                <Label Text="{Binding}" FontSize="30"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
