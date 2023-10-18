@@ -1,0 +1,1 @@
+D:\GitHub\Advanced-mobile-development\Warhammer40KDatasheet\Warhammer40KDatasheet\Warhammer40KDatasheet.csproj;x64

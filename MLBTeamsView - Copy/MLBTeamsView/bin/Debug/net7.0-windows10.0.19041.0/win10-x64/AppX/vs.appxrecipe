@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\GitHub\Advanced-mobile-development\MLBTeamsView - Copy\MLBTeamsView\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-09-19T05:25:32.728</Modified>
+      <Modified>2023-09-28T06:57:36.085</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\GitHub\Advanced-mobile-development\MLBTeamsView - Copy\MLBTeamsView\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-09-19T05:25:32.176</Modified>
+      <Modified>2023-09-28T06:57:35.664</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\Advanced-mobile-development\MLBTeamsView - Copy\MLBTeamsView\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MLBTeamsView.runtimeconfig.json">
       <PackagePath>MLBTeamsView.runtimeconfig.json</PackagePath>
@@ -920,7 +920,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\Advanced-mobile-development\MLBTeamsView - Copy\MLBTeamsView\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MLBTeamsView.deps.json">
       <PackagePath>MLBTeamsView.deps.json</PackagePath>
-      <Modified>2023-09-19T05:25:32.616</Modified>
+      <Modified>2023-09-28T06:57:35.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

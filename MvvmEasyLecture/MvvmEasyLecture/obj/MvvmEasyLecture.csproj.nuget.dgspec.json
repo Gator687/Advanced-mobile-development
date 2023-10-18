@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Advanced-mobile-development\\MvvmEasyLecture\\MvvmEasyLecture\\MvvmEasyLecture.csproj": {}
+    "D:\\GitHub\\Advanced-mobile-development\\MvvmEasyLecture\\MvvmEasyLecture\\MvvmEasyLecture.csproj": {}
   },
   "projects": {
-    "D:\\Advanced-mobile-development\\MvvmEasyLecture\\MvvmEasyLecture\\MvvmEasyLecture.csproj": {
+    "D:\\GitHub\\Advanced-mobile-development\\MvvmEasyLecture\\MvvmEasyLecture\\MvvmEasyLecture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Advanced-mobile-development\\MvvmEasyLecture\\MvvmEasyLecture\\MvvmEasyLecture.csproj",
+        "projectUniqueName": "D:\\GitHub\\Advanced-mobile-development\\MvvmEasyLecture\\MvvmEasyLecture\\MvvmEasyLecture.csproj",
         "projectName": "MvvmEasyLecture",
-        "projectPath": "D:\\Advanced-mobile-development\\MvvmEasyLecture\\MvvmEasyLecture\\MvvmEasyLecture.csproj",
-        "packagesPath": "C:\\Users\\thoma\\.nuget\\packages\\",
-        "outputPath": "D:\\Advanced-mobile-development\\MvvmEasyLecture\\MvvmEasyLecture\\obj\\",
+        "projectPath": "D:\\GitHub\\Advanced-mobile-development\\MvvmEasyLecture\\MvvmEasyLecture\\MvvmEasyLecture.csproj",
+        "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\Advanced-mobile-development\\MvvmEasyLecture\\MvvmEasyLecture\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Program Files\\VS shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\thoma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Thomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -31,7 +31,6 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "D:\\Advanced-mobile-development\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

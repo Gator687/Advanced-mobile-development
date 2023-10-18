@@ -1,1 +1,1 @@
-D:\Advanced-mobile-development\MvvmEasyLecture\MvvmEasyLecture\MvvmEasyLecture.csproj;x64
+D:\GitHub\Advanced-mobile-development\MvvmEasyLecture\MvvmEasyLecture\MvvmEasyLecture.csproj;x64

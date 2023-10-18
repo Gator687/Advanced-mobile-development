@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Warhammer40KDatasheet.MainPage"
+             xmlns:local="clr-namespace:Warhammer40KDatasheet.Models">
+
+    <ContentPage.BindingContext>
+        <local:DataSheet/>
+    </ContentPage.BindingContext>
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Label Text="Enter Unit"/>
+            <Entry x:Name="UnitEntry" Keyboard="Default"
+                   Text="{Binding Unit}"/>
+            <Label Text="Enter Toughness"/>
+            <Entry x:Name="toughnessEntry" Keyboard="Default"
+                   Text="{Binding Toughness}"/>
+            <Label Text="Enter Strength"/>
+            <Entry x:Name="strengthEntry" Keyboard="Default"
+                   Text="{Binding Strength}"/>
+            <Label Text="Enter Movement"/>
+            <Entry x:Name="movementEntry" Keyboard="Default"
+                   Text="{Binding Movement}"/>
+            <Button Text="Add Unit"
+                    Command="{Binding addUnit}"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
