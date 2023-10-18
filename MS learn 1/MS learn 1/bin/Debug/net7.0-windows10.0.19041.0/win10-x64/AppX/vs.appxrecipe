@@ -30,7 +30,7 @@
     <AppXManifest Include="D:\Advanced-mobile-development\MS learn 1\MS learn 1\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-07-24T14:03:43.418</Modified>
+      <Modified>2023-10-14T04:28:13.474</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -40,7 +40,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\MS learn 1\MS learn 1\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MS learn 1.runtimeconfig.json">
       <PackagePath>MS learn 1.runtimeconfig.json</PackagePath>
-      <Modified>2023-07-24T14:03:41.170</Modified>
+      <Modified>2023-10-14T04:28:10.368</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\MS learn 1\MS learn 1\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MS learn 1.dll">
       <PackagePath>MS learn 1.dll</PackagePath>
@@ -920,7 +920,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Advanced-mobile-development\MS learn 1\MS learn 1\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MS learn 1.deps.json">
       <PackagePath>MS learn 1.deps.json</PackagePath>
-      <Modified>2023-07-24T14:03:42.973</Modified>
+      <Modified>2023-10-14T04:28:12.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

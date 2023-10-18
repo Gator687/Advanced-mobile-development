@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7C0RgSRuw4AIyYyxbUpTNPBVnCXJd+7Ki5jkKGP5UiQQ3za6sz2fy8tLKISr8Khe2ei7BLV+k2tFho+bLcTmlw==",
+  "dgSpecHash": "jA5/FghUBJAxTzrakRx8ECWjOmVN6xD3+DkrnREG7tscPiCTF6rqDpQGCUc2VmA9+wERA8WE7P/9gfYZzbxmlw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\thoma\\Desktop\\Advanced-mobile-development\\MyFirstMAUIApp\\MyFirstMAUIApp\\MyFirstMAUIApp.csproj",
+  "projectFilePath": "D:\\Advanced-mobile-development\\MyFirstMAUIApp\\MyFirstMAUIApp\\MyFirstMAUIApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thoma\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\thoma\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
